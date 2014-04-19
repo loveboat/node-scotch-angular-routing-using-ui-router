@@ -22,7 +22,7 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             }
         })
 
-        // nested list with just from random string data
+        // nested view with just from random string data
         .state('home.paragraph', {
             url: '/paragraph',
             template: 'I could sure use a drink right now.'
